@@ -1,0 +1,82 @@
+#!/bin/bash
+# Connect to JEnkins server using Git bash
+
+# 2 Update the apt repository
+  sudo apt-get update
+
+# 3 Install jdk
+  sudo apt-get install -y openjdk-8-jdk
+
+# 4 Install git and maven
+  sudo apt-get install -y git maven
+
+# 5 Download jenkins.war
+  wget https://get.jenkins.io/war-stable/2.303.3/jenkins.war
+
+# 6 To start jenkins
+  java -jar jenkins.war
+  angel22
+  mtZion
+
+
+
+  # 1 Connect to QAServer AWS instance using git bash
+
+# 2 Update the apt repository
+  sudo apt-get update
+
+# 3 Install tomcat9
+  sudo apt-get install -y tomcat9
+
+# 4 Install tomcat9-admin
+  sudo apt-get isntall -y tomcat9-admin
+
+5 Edit the tomcat-users.xml file
+  sudo vim /etc/tomcat9/tomcat-users.xml
+  Delete the entire content of the file and copy paste the below content
+ 
+  <tomcat-users>
+       <user username="admin" password="admin" roles="manager-script"/>
+  </tomcat-users>
+
+6 Restart tomcat
+  sudo service tomcat9 restart
+
+  <user username="prod" password="prod2" roles="manager-script
+
+  <user username="test" password="test1" roles="manager-script"/>
+
+  # User Admin in Jenkins
+
+  # username1 = viaroyale  
+  # password =  riviera2
+  # First Name = Jupiter 
+  # Last Name = Beach
+  # email = beach@rfgbhn.com
+
+  # username2 = boyton
+  # password =  chief
+  # First Name = Bryant 
+  # Last Name = McCormick
+  # email = chief@7ujk.com
+  
+  # username3 = suzanne
+  # password =  reisterstown
+  # First Name = Suzanne
+  # Last Name = Smith
+  # email = smith@cvbnm9.com
+
+  # username4 = cave2
+  # password =  garrison
+  # First Name = Thomas
+  # Last Name = Lamb
+  # email = lamb@qwedfv89.com
+
+  # username5 = chowen
+  # password =  lakeview44
+  # First Name = Mary
+  # Last Name = Plymouth
+  # email = plymouth@pokjhg.net
+  
+
+
